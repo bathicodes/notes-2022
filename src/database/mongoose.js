@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://bathiya:1234db@cluster0.iknw1.mongodb.net/dataMaster?retryWrites=true&w=majority',{
+mongoose.connect('<Change_this_connect_link>',{
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,
